@@ -1,0 +1,22 @@
+a=33333322267
+b={}
+for i in str(a):
+    if i not in b:
+        b[i]=1
+    else:
+        b[i]=b[i]+1
+print(b)
+
+
+b={'A':2, 'B':7, 'C':9}
+a1=[i for i in b.keys()]
+a2=[i[1] for i in b.items()]
+print(a1)
+print(a2)
+
+
+def ace(name="Mahathi"):
+    print("Good Morning", name)
+ace("Raju")
+ace("Naresh")
+ace()
